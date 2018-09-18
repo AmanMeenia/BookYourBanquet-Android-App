@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miet.eventsandbeyonds"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher_banquethall"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.miet.eventsandbeyonds.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.miet.eventsandbeyonds.RegisterActivity"
+            android:parentActivityName="com.miet.eventsandbeyonds.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.miet.eventsandbeyonds.Banquet.BanquetPanel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.miet.eventsandbeyonds.Banquet.BanquetRegister"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.miet.eventsandbeyonds.cater.CaterRegister"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDWtU-YITc4ATAIncXhUnoZ3xqZlra_VnA" />
+
+        <activity android:name="com.miet.eventsandbeyonds.ngo.NGORegister" />
+        <activity android:name="com.miet.eventsandbeyonds.cater.CaterPanel" />
+        <activity android:name="com.miet.eventsandbeyonds.ngo.NGOPanel" />
+        <activity android:name="com.miet.eventsandbeyonds.user.UserPanel" />
+        <activity
+            android:name="com.miet.eventsandbeyonds.admin.AdminPanel"
+            android:label="@string/title_activity_admin_panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.miet.eventsandbeyonds.user.FindBanquetActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.user.FindCatersActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.ngo.RequestActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.user.DonateFoodActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.user.SearchByPriceActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.user.SearchResultActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.user.FeedbackActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.SplashscreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.miet.eventsandbeyonds.user.BanquetActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.ShowBanquetList" />
+        <activity android:name="com.miet.eventsandbeyonds.RegisterBanquetCater" />
+        <activity android:name="com.miet.eventsandbeyonds.BanquetDetails" />
+        <activity android:name="com.miet.eventsandbeyonds.BlueMoon" />
+        <activity android:name="com.miet.eventsandbeyonds.BarowserActivity" />
+        <activity android:name="com.miet.eventsandbeyonds.TheGrand" />
+        <activity android:name="com.miet.eventsandbeyonds.SunCity" />
+        <activity android:name="com.miet.eventsandbeyonds.Vedas" />
+        <activity android:name="com.miet.eventsandbeyonds.TripleFarm" />
+        <activity android:name="com.miet.eventsandbeyonds.RoyalEstates" />
+        <activity android:name="com.miet.eventsandbeyonds.KcEmporia" />
+        <activity android:name="com.miet.eventsandbeyonds.GuptaResort" />
+        <activity android:name="com.miet.eventsandbeyonds.KamalSheeshMahal" />
+        <activity android:name="com.miet.eventsandbeyonds.user.BookBanquetNow" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

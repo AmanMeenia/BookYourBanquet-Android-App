@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.miet.eventsandbeyonds.user.SearchByPriceActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Search"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/lowerPrice"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:inputType="number"
+            android:layout_toEndOf="@+id/textView"
+            android:hint="eg. 100" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lowerPrice"
+            android:layout_alignBottom="@+id/lowerPrice"
+            android:layout_alignParentStart="true"
+            android:text="Lower Limit" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_alignBaseline="@+id/upperPrice"
+            android:layout_alignBottom="@+id/upperPrice"
+            android:layout_alignParentStart="true"
+            android:text="Upper Limit" />
+
+        <EditText
+            android:id="@+id/upperPrice"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lowerPrice"
+            android:inputType="number"
+            android:layout_toEndOf="@+id/textView2"
+            android:hint="eg. 2000" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+    </RelativeLayout>
+</LinearLayout>

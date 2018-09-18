@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="6dp"
+    card_view:cardCornerRadius="8dp"
+    android:id="@+id/house_card_view"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/imageBanquetList"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"
+               android:src="@mipmap/ic_launcher_banquethall"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/rateBanquet"
+                android:background="@drawable/shadow" />
+
+            <TextView
+                android:id="@+id/rateBanquet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/image"
+                android:layout_margin="20dp"
+                android:text="$12,000"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/data_container"
+            android:layout_below="@+id/image_container">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banquet Name"
+                android:id="@+id/nameBanquet"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Banquet Address"
+                android:id="@+id/addressBanquet"
+                android:layout_marginTop="2dp"
+                android:textSize="16sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/hallBanquet"
+                    android:textColor="@color/grey_dark"
+                    android:text="Hall 3"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/grey_dark"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/parkingBanquet"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey_dark"
+                    android:text="Parking Spot 3"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/grey_dark"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/square_ftBanquet"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey_dark"
+                    android:text="Square ft 3"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_unselected_fav"
+            android:layout_alignBottom="@+id/data_container"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"
+            app:backgroundTint="@color/white"
+            android:id="@+id/favouriteBanquet"
+            android:layout_marginBottom="70dp"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

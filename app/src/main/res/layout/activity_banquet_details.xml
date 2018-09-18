@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_sky"
+    tools:context="com.miet.eventsandbeyonds.BanquetDetails">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/BanquetButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:gravity="left"
+                android:src="@drawable/bluemoon" />
+
+            <ImageButton
+                android:id="@+id/BanquetButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:src="@drawable/login_image3" />
+
+
+
+            <ImageButton
+                android:id="@+id/BanquetButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_alignLeft="@+id/btnmassweight"
+                android:layout_below="@+id/btnmassweight"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:src="@drawable/login_image4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/BanquetText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BLUE MOON          THE GRAND               SUNCITY "
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="140dp"
+                android:textColor="@color/darkblue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+
+            <ImageButton
+                android:id="@+id/BanquetButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:gravity="left"
+                android:src="@drawable/login_image5" />
+
+            <ImageButton
+                android:id="@+id/BanquetButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:src="@drawable/login_image6" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/BanquetText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="    VEDAS                  ROYAL ESTATE   TRIPLE FARM"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="290dp"
+                android:textColor="@color/darkblue"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/top3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="310dp">
+
+            <ImageButton
+                android:id="@+id/BanquetButton31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:gravity="left"
+                android:src="@drawable/login_image8" />
+
+            <ImageButton
+                android:id="@+id/BanquetButton32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:src="@drawable/login_image9" />
+
+
+            <ImageButton
+                android:id="@+id/BanquetButton33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="#00000000"
+                android:src="@drawable/login_image10" />
+
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/BanquetButton23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/top2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:background="#00000000"
+            android:src="@drawable/login_image7" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/BanquetText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KC EMPORIA           KAMLA MAHAL         GUPTA       "
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="450dp"
+                android:textColor="@color/darkblue"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

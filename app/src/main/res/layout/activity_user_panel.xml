@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miet.eventsandbeyonds.user.UserPanel">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_image"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Panel"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/searchBanquetUsrPnl"
+            android:layout_height="wrap_content"
+            android:text="Find Banquet"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+
+        <Button
+            android:id="@+id/searchCaterUsrPnl"
+            android:layout_height="wrap_content"
+            android:text="Find Caterer"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+
+        <Button
+            android:id="@+id/donateFoodUsrPnl"
+            android:layout_height="wrap_content"
+            android:text="DonateFood"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+
+        <Button
+            android:id="@+id/searchUsrPnl"
+            android:layout_height="wrap_content"
+            android:text="Search by price"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+
+        <Button
+            android:id="@+id/banquet_list"
+            android:layout_height="wrap_content"
+            android:text="Banquet List"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+        <Button
+        android:id="@+id/banquet_detail"
+        android:layout_height="wrap_content"
+        android:text="Banquet Details"
+        android:textColor="#ffffff"
+        android:layout_width="250dp"/>
+        <Button
+            android:id="@+id/banquet_book"
+            android:layout_height="wrap_content"
+            android:text="Banquet Booking"
+            android:textColor="#ffffff"
+            android:layout_width="250dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

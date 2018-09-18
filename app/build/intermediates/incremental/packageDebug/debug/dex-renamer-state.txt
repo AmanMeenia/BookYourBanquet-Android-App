@@ -1,0 +1,4 @@
+#Tue May 29 20:50:16 GMT-08:00 2018
+base.0=E\:\\ANDROID STUDIO PROJECT FILE\\BookYourBanquetLatest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

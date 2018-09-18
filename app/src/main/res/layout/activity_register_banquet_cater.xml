@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miet.eventsandbeyonds.RegisterBanquetCater">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/banquetHallRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_sky"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Click to Register as Banquet Hall" />
+
+        <Button
+            android:id="@+id/caterRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/blue_sky"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Click to Register as Cater" />
+
+        <Button
+            android:id="@+id/ngoRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/blue_sky"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Click to Register as MusicSystem Org." />
+
+    </LinearLayout>
+
+</LinearLayout>

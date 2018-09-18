@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:src="@drawable/donatefood_image"
+            android:scaleType="centerCrop"
+            android:alpha=".2"/>
+        <LinearLayout
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="40dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                map:cardCornerRadius="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                map:cardBackgroundColor="#a099f584">
+                <EditText
+                    android:id="@+id/banquetName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Banquet Name"
+                    android:maxLines="1"
+                    android:textColorHint="#585555"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/fbutton_color_alizarin"
+                    android:singleLine="true"
+                    android:layout_marginTop="30dp" />
+
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="Description"
+                    android:textColorHint="#585555"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/fbutton_color_alizarin"
+                    android:layout_marginTop="80dp" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:maxLines="1"
+                    android:textColorHint="#585555"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/fbutton_color_alizarin"
+                    android:singleLine="true"
+                    android:layout_marginTop="130dp" />
+
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact Number"
+                    android:maxLines="1"
+                    android:textColorHint="#585555"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/fbutton_color_alizarin"
+                    android:singleLine="true"
+                    android:layout_marginTop="180dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/donate_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:drawablePadding="0dp"
+            android:minWidth="250dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Donate food"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/login_form"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_sky">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/BlueMoon"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/triplefarm"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME TO THE
+  TRIPLE FARM
+   BANQUET "
+                android:fontFamily="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@color/darkblue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     2nd Milestone,
+Akhnoor Road, Jammu
+
+Office:
+0191-2502966
+2502653
+Contact:
+94191-89370
+9419184556
+
+"
+                android:fontFamily="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/darkblue"/>
+            <Button
+                android:id="@+id/triplefarmButton"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="bold"
+                android:textColor="@color/Red"
+                android:background="@color/colorPrimary"
+                android:text="For more details click here "/>
+            <Button
+                android:id="@+id/triplefarmButtonPay"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/Red"
+                android:background="@color/colorPrimary"
+                android:text="Book Now"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+

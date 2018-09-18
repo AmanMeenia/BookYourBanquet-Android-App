@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miet.eventsandbeyonds.BlueMoon"
+    android:background="@color/blue_sky">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/BlueMoon"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gupta"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME TO THE
+  GUPTA BANQUET "
+                android:fontFamily="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@color/darkblue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Gupta Resorts
+Narwal Bye Pass Chowk
+(Near Toyota Showroom)
+Jammu , J  and K-180006
+T- 0191-2490925 , 0191-2490865
+E- info@guptaresorts.in
+"
+                android:fontFamily="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/darkblue"/>
+            <Button
+                android:id="@+id/guptaButton"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="bold"
+                android:textColor="@color/Red"
+                android:background="@color/colorPrimary"
+                android:text="For more details click here "/>
+            <Button
+                android:id="@+id/guptaButtonPay"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="bold"
+                android:textColor="@color/Red"
+                android:background="@color/colorPrimary"
+                android:text="Book Now"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+

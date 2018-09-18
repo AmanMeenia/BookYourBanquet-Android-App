@@ -1,0 +1,374 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+MERGED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d6ef7dff0ead5910d873cc457ac10fb6\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:17:1-31:12
+MERGED from [info.hoang8f:fbutton:1.0.5] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\fbutton-1.0.5.aar\0971d725fcf4a355a4ce292e641b7308\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\d0a6a9e5996a89472baef953d0670208\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:1-81:12
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:13:22-76
+application
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:15:5-79:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d6ef7dff0ead5910d873cc457ac10fb6\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d6ef7dff0ead5910d873cc457ac10fb6\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\d0a6a9e5996a89472baef953d0670208\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\d0a6a9e5996a89472baef953d0670208\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:17:9-55
+	android:allowBackup
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.miet.eventsandbeyonds.LoginActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:21:9-23:47
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:22:13-42
+activity#com.miet.eventsandbeyonds.RegisterActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:24:9-27:47
+	android:parentActivityName
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:26:13-56
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.miet.eventsandbeyonds.Banquet.BanquetPanel
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:28:9-30:47
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:29:13-49
+activity#com.miet.eventsandbeyonds.Banquet.BanquetRegister
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:31:9-33:47
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:32:13-52
+activity#com.miet.eventsandbeyonds.cater.CaterRegister
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:34:9-36:47
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:35:13-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:38:9-40:71
+	android:value
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:40:13-68
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:39:13-58
+activity#com.miet.eventsandbeyonds.ngo.NGORegister
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:42:9-53
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:42:19-50
+activity#com.miet.eventsandbeyonds.cater.CaterPanel
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:43:9-54
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:43:19-51
+activity#com.miet.eventsandbeyonds.ngo.NGOPanel
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:44:9-50
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:44:19-47
+activity#com.miet.eventsandbeyonds.user.UserPanel
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:45:9-52
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:45:19-49
+activity#com.miet.eventsandbeyonds.admin.AdminPanel
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:46:9-49:59
+	android:label
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:47:13-45
+activity#com.miet.eventsandbeyonds.user.FindBanquetActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:50:9-62
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:50:19-59
+activity#com.miet.eventsandbeyonds.user.FindCatersActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:51:9-61
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:51:19-58
+activity#com.miet.eventsandbeyonds.ngo.RequestActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:52:9-57
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:52:19-54
+activity#com.miet.eventsandbeyonds.user.DonateFoodActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:53:9-61
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:53:19-58
+activity#com.miet.eventsandbeyonds.user.SearchByPriceActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:54:9-64
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:54:19-61
+activity#com.miet.eventsandbeyonds.user.SearchResultActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:55:9-63
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:55:19-60
+activity#com.miet.eventsandbeyonds.user.FeedbackActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:56:9-59
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:56:19-56
+activity#com.miet.eventsandbeyonds.SplashscreenActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:57:9-63:20
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:57:19-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:61:27-74
+activity#com.miet.eventsandbeyonds.user.BanquetActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:64:9-58
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:64:19-55
+activity#com.miet.eventsandbeyonds.ShowBanquetList
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:65:9-53
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:65:19-50
+activity#com.miet.eventsandbeyonds.RegisterBanquetCater
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:66:9-58
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:66:19-55
+activity#com.miet.eventsandbeyonds.BanquetDetails
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:67:9-52
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:67:19-49
+activity#com.miet.eventsandbeyonds.BlueMoon
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:68:9-46
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:68:19-43
+activity#com.miet.eventsandbeyonds.BarowserActivity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:69:9-54
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:69:19-51
+activity#com.miet.eventsandbeyonds.TheGrand
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:70:9-46
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:70:19-43
+activity#com.miet.eventsandbeyonds.SunCity
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:71:9-45
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:71:19-42
+activity#com.miet.eventsandbeyonds.Vedas
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:72:9-43
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:72:19-40
+activity#com.miet.eventsandbeyonds.TripleFarm
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:73:9-48
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:73:19-45
+activity#com.miet.eventsandbeyonds.RoyalEstates
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:74:9-50
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:74:19-47
+activity#com.miet.eventsandbeyonds.KcEmporia
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:75:9-47
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:75:19-44
+activity#com.miet.eventsandbeyonds.GuptaResort
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:76:9-49
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:76:19-46
+activity#com.miet.eventsandbeyonds.KamalSheeshMahal
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:77:9-54
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:77:19-51
+activity#com.miet.eventsandbeyonds.user.BookBanquetNow
+ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:78:9-66
+	android:name
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml:78:19-54
+uses-sdk
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d6ef7dff0ead5910d873cc457ac10fb6\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d6ef7dff0ead5910d873cc457ac10fb6\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:21:5-23:54
+MERGED from [info.hoang8f:fbutton:1.0.5] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\fbutton-1.0.5.aar\0971d725fcf4a355a4ce292e641b7308\AndroidManifest.xml:7:5-9:41
+MERGED from [info.hoang8f:fbutton:1.0.5] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\fbutton-1.0.5.aar\0971d725fcf4a355a4ce292e641b7308\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\d0a6a9e5996a89472baef953d0670208\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\d0a6a9e5996a89472baef953d0670208\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		ADDED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\BookYourBanquetLatest\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\92a16745560dbe9ef4992dc87d9dd246\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\4db4202baf99f8aed16330815064ff60\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\93b8a12b32472025d67e69656228b4f1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.4.0.aar\ea236d27e09e74801bb316ef738036fc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\cba7e036cf6a36e37a97866630e118ce\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\d686196d9b1bc4dd880f7fa66f26dc4f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\f5a06fefd39ee79bdf4f94f5e3e3b346\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\6c12b196749976aff73cea444daf8159\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\e4faeb43c9f197e26295bc4e17a33b1a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\ba52ea23162f346755558d479ede12b8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\36ab943cbc7b0c48bd5454ee69aeb66d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\835ef0e1977d7ec51e1481bb9a29adfa\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\27c164ce843a39c994d96488bf0c707a\AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\9af2b1fe5afaaf4f0c6554a36c59f26d\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\71ab2aab2848a83fbe3f221763865cf3\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\dfcb9cc145d6d251e81e36e12b3d6d92\AndroidManifest.xml:20:20-65

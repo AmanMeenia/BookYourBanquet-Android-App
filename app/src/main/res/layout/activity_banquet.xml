@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_container">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/imageBanquet"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher_banquethall"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="122dp"
+                android:background="@drawable/shadow"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$12,000"
+                android:visibility="invisible"
+                android:layout_margin="20dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_alignBottom="@+id/image"
+                android:id="@+id/rate"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/data_container"
+            android:layout_below="@+id/image_container">
+
+            <TextView
+                android:id="@+id/addressBanquet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:text="Banquet Address"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banquet Name"
+                android:layout_gravity="center"
+                android:id="@+id/nameBanquet"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/grey_dark"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight=".1"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:src="@drawable/ic_account_circle_white_18dp"
+                    android:layout_height="25dp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:src="@drawable/ic_lead_pencil_black_48dp"
+                    android:layout_height="25dp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:src="@drawable/ic_info_black_24dp"
+                    android:layout_height="25dp" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight=".1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight=".1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:id="@+id/hallBanquet"
+                    android:textColor="@color/grey_dark"
+                    android:text="Banquet Hall"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/parkingBanquet"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey_dark"
+                    android:text="Parking"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".26"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/square_ftBanquet"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey_dark"
+                    android:text="Square ft 3"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight=".1"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/grey_dark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="DESCRIPTION OF THE BANQUET"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_unselected_fav"
+                    android:id="@+id/favouriteBanquet"/>
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_unselected_fav"
+                    android:id="@+id/book"/>
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_unselected_fav"
+                    android:id="@+id/addToWishList"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

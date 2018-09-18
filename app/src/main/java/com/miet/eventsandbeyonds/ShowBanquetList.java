@@ -1,0 +1,15 @@
+package com.miet.eventsandbeyonds;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class ShowBanquetList extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_show_banquet_list);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.container_activity,new ItemFragment()).commit();
+    }
+}
